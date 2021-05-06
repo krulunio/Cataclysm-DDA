@@ -45,5 +45,19 @@
     "type": "MONSTER",
     "copy-from": "mon_zombie_pupa_decoy",
     "death_drops": "mon_zombie_medical_death_drops"
+  },
+  {
+    "id": "mon_zombie_medical_bio_surgeon",
+    "type": "MONSTER",
+    "name": { "str": "surgeon scissorhand" },
+    "description": "Once a highly trained medical professional, this zombie surgeon's left hand is replaced with bionic scalpels and syringe.  Disturbingly, it seems to have a glimmer of awareness.",
+    "copy-from": "mon_zombie_scientist",
+    "death_drops": "mon_zombie_medical_death_drops",
+    "color": "blue_cyan",
+    "melee_skill": 5,
+    "melee_dice_sides": 2,
+    "melee_cut": 8,
+    "diff": 3,
+    "special_attacks": [ [ "BIO_OP_IMPALE", 20 ] ]
   }
 ]
